@@ -1,0 +1,34 @@
+.card {
+    width: 30%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    border-radius: .5rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    transition: all ease-in-out .6s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img.character-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: .5rem;
+}
+
+.card div {
+    padding: 2rem;
+}
+
+.card div h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.card span.user-card {
+    color: #ccc;
+}
